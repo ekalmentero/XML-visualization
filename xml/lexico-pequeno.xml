@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<projeto>
+<nome>transparencia</nome>
+
+
+<lexico>
+
+<nome_simbolo id="qualidade da informacao"><texto>Qualidade Da Informação</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Características agregadas à </texto><texto referencia_lexico="informacao">informação</texto><texto>.
+Seguir </texto><texto referencia_lexico="política de transparencia">políticas de transparência</texto><texto> leva à qualidade da </texto><texto referencia_lexico="informacao">informação</texto><texto>.
+A demanda dos usuários leva à qualidade de </texto><texto referencia_lexico="informacao">informação</texto><texto>.
+</texto><PT/></sentenca></nocao>
+<impacto><sentenca><texto>Qualidade da </texto><texto referencia_lexico="informacao">informação</texto> <texto referencia_lexico="melhora">beneficia</texto><texto> a </texto><texto referencia_lexico="transparencia">transparência</texto><texto>.
+
+referencia: livro Full Disclosure item 27
+
+A qualidade da </texto><texto referencia_lexico="informacao">informação</texto> <texto referencia_lexico="melhora">beneficia</texto><texto> o discurso público.
+referencia: livro Full disclosure item 2
+</texto><PT/></sentenca></impacto>
+</lexico>
+
+
+<lexico>
+<nome_simbolo id="depende"><texto>Depende</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>mostra a dependência entre 2 entidades. Uma entidade só existe se a outra também existir</texto><PT/></sentenca></nocao>
+<impacto><sentenca><texto>Transparencia depende da </texto><texto referencia_lexico="qualidade da informacao">qualidade da informação</texto><PT/></sentenca></impacto>
+</lexico>
+
+
+<lexico>
+<nome_simbolo id="facilita"><texto>Facilita</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Ocorre quando uma característica torna mais fácil o alcance de outra característica.</texto><PT/></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparência</texto><texto> facilita a vigilancia.</texto><PT/></sentenca></impacto>
+</lexico>
+
+
+</projeto>

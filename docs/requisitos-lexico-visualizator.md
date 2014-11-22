@@ -1,6 +1,6 @@
 ## Elicitacao de Requisitos - Lexico/XML Visualizator
 
-dia 10-nov-2014
+#### dia 10-nov-2014
 
 1.  Disponibilizar o nosso resultado das aulas de transparencia-2014 em formato HTML
 2.  Permitir versonamento das mudanças no Lexico
@@ -10,7 +10,7 @@ Feedback:
 - Sinonimos não estão sindo referenciado
 - A classificação de Lexico não é no XML do lexico
 
-dia 17-nov-2014
+#### dia 17-nov-2014
 
 1.  Os sinonimos não vai ser considerados, retirar esse campo.
 2.  A classificação não é relevante para a pessoa (cidadão) que vai fazer leittura do Lexico, retirar esse campo.

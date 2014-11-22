@@ -10,7 +10,7 @@
 
   > Exemplo *A privacidade pode ser regulamentada pela Lei*
 
-  > A Lei não está nas nuvems do SIG. Se tivessemos um SIG de qualidades de Transparência de Informação, a Lei seria um Tópico onde se mida a transparencia
+  > A Lei não está nas nuvems do SIG. Se tivessemos um SIG de qualidades de Transparência de Informação, a Lei seria um Tópico.
 
 #### dia 15-sept-2014
 

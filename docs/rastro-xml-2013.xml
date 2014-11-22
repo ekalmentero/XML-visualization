@@ -1,0 +1,406 @@
+
+<!-- saved from url=(0078)http://pes.inf.puc-rio.br/cel/aplicacao/mostraXML.php?id_projeto=759&versao=33 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><projeto>
+<nome>transparencia</nome>
+<lexico>
+<nome_simbolo id="transparencia"><texto>Transparencia</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Informação disponível a um usuário</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>transparencia torna visível a informação a um ou mais usuários</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="transparencia direcionada"><texto>Transparencia Direcionada</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Ocorre quando a informação disponibilizada ao usuário tem um objetivo específico.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>É subtipo de transparência</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="e subtipo de"><texto>é Subtipo De</texto></nome_simbolo>
+<sinonimos><sinonimo>é um tipo de</sinonimo><sinonimo>é um(uma)</sinonimo></sinonimos>
+<nocao><sentenca><texto>representa uma herança, uma especificação. O subtipo terá todas as características do tipo ao qual está relacionado</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia direcionada">transparencia direcionada</texto><texto> é subtipo de </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="qualidade da informacao"><texto>Qualidade Da Informação</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Forma como a informação é apresentada. Quando melhor apresentada é mais fácil de </texto><texto referencia_lexico="entendimento">entendimento</texto><texto>, melhor a qualidade da informação</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A Transparência </texto><texto referencia_lexico="depende">depende</texto><texto> da qualidade da informação</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="depende"><texto>Depende</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> depende da </texto><texto referencia_lexico="qualidade da informacao">qualidade da informação</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> depende da </texto><texto referencia_lexico="qualidade da informacao">qualidade da informação</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="vigilancia"><texto>Vigilancia</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>ata de observar atentamente, espreitar, tomar conta de algum fato</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="e proporcional a">é proporcional à</texto><texto> vigilância</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="facilita"><texto>Facilita</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Ocorre quando uma característica torna mais fácil o alcance de outra característica</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> facilita a </texto><texto referencia_lexico="vigilancia">vigilancia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="padronizacao"><texto>Padronizacao</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Estabelecimento de especificações técnicas, critérios, métodos, processos, ou práticas favorecendo a criação de informações sempre apresentadas no mesmo formato</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>
+padronização </texto><texto referencia_lexico="facilita">facilita</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="custo"><texto>Custo</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Custo representa o gasto econômico gerado</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="gera">gera</texto><texto> custo</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="gera"><texto>Gera</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Significa produzir uma consequência
+</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> gera </texto><texto referencia_lexico="custo">custo</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="confianca"><texto>Confianca</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Possuir confiança significa que a </texto><texto referencia_lexico="organizacao">organização</texto><texto> possui segurança sobre as informações disponibilizadas</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto><texto> nas informacoes disponibilizadas </texto><texto referencia_lexico="gera">gera</texto><texto> uma maior confianca </texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="intermediarios"><texto>Intermediarios</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>pessoas que agem indiretamente em favor a </texto><texto referencia_lexico="transparencia">transparencia</texto><texto>. São eles: jornalista, economistas, empresas</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>intermediarios promovem </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="sigilo"><texto>Sigilo</texto></nome_simbolo>
+<sinonimos><sinonimo>segredo</sinonimo></sinonimos>
+<nocao><sentenca><texto>convenção que indica ausência de informações</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>sigilo </texto><texto referencia_lexico="impede">impede</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="e oposto de"><texto>é Oposto De</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>É oposto de significa oposição.
+Quando há a existência de </texto><texto referencia_lexico="sigilo">sigilo</texto><texto>, não poderá haver a transparência</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="sigilo">sigilo</texto><texto> é oposto de </texto><texto referencia_lexico="transparencia">transparencia</texto>
+<texto referencia_lexico="opacidade">opacidade</texto><texto> é oposto de </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="opacidade"><texto>Opacidade</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Impossibilidade de visualização. Informação opaca é uma informação que não está disponível e é difícil </texto><texto referencia_lexico="entendimento">entendimento</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>Opacidade é o oposto de </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="discriminacao"><texto>Discriminacao</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>atitude de segregação, tratamento com diferença</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="evidencia">evidencia</texto><texto> a discriminacao</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="evidencia"><texto>Evidencia</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Evidencia significa colocar em destaque, chamar a atencao
+</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> evidencia a </texto><texto referencia_lexico="discriminacao">discriminacao</texto><texto>
+trasnaprencia evidencia </texto><texto referencia_lexico="escandalo">escandalo</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="privacidade"><texto>Privacidade</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>habilidade de uma pessoa em controlar a exposição e a </texto><texto referencia_lexico="disponibilidade">disponibilidade</texto><texto> de informações acerca de si</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> é o oposto de privacidade</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="accountability"><texto>Accountability</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>accountability é a prestação de contas, mostrando o que está sendo realizado com </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="promove">promove</texto><texto> accountability</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="promove"><texto>Promove</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> promove </texto><texto referencia_lexico="accountability">accountability</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> promove </texto><texto referencia_lexico="accountability">accountability</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="escandalo"><texto>Escandalo</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>descoberta de um ato que fere as </texto><texto referencia_lexico="normas">normas</texto><texto> de conduta moral ou legalmente vigentes
+Organizações podem estar relacionadas a escândalos</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>escandalo </texto><texto referencia_lexico="evidencia">evidencia</texto> <texto referencia_lexico="transparencia">transparencia</texto><texto>
+Organizações estão sujeitas a escândalos</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="crise"><texto>Crise</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Crise é um momento de desequilíbrio que </texto><texto referencia_lexico="evidencia">evidencia</texto><texto> a necessidade de um tipo de mudança</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>crise é um subtipo de </texto><texto referencia_lexico="escandalo">escandalo</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="e proporcional a"><texto>é Proporcional à</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>relação entre grandezas, aonde a razão entre as grandezas é sempre constante
+Quanto maior for a </texto><texto referencia_lexico="democracia">democracia</texto><texto> maior será a transparência
+Quanto menor for a </texto><texto referencia_lexico="democracia">democracia</texto><texto> menor será a transparência
+</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="democracia">democracia</texto><texto> é proporcional à </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="usabilidade"><texto>Usabilidade</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto> Capacidade da informação está pronta para ser utilizada. Para isso a informação terá que estar disponível</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>usabilidade </texto><texto referencia_lexico="ajuda">ajuda</texto> <texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="processo de tomada de decisao"><texto>Processo De Tomada De Decisão</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>processo de escolha de um plano de ação dentre vários outros para uma situação-problema</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="melhora">melhora</texto><texto> o processo de tomada de decisão</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="melhora"><texto>Melhora</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> melhora o </texto><texto referencia_lexico="processo de tomada de decisao">processo de tomada de decisão</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> melhora o </texto><texto referencia_lexico="processo de tomada de decisao">processo de tomada de decisão</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="disponibilidade"><texto>Disponibilidade</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Capacidade de estar pronto e disponível para a utilização
+Informação disponível, é informação que possa ser acessada</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="necessita">necessita</texto><texto> de disponibilidade</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="necessita"><texto>Necessita</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> necessita de </texto><texto referencia_lexico="disponibilidade">disponibilidade</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> necessita de </texto><texto referencia_lexico="disponibilidade">disponibilidade</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="infraestrutura tecnica"><texto>Infraestrutura Tecnica</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Conjunto de equipamentos técnicos, neste caso, web, computadores, internet fazem parte da infraestrutura técnica</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="necessita">necessita</texto><texto> de infraestrutura tecnica</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="ajuda"><texto>Ajuda</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Ocorre quando uma característica auxilia o alcance de outra característica</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="infraestrutura tecnica">infraestrutura tecnica</texto><texto> ajuda a </texto><texto referencia_lexico="disponibilidade">disponibilidade</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="entendimento"><texto>Entendimento</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Entendimento é a capacidade de absorver o conhecimento e conseguir reproduzi-lo.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>entendimento </texto><texto referencia_lexico="facilita">facilita</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="assimetria"><texto>Assimetria</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Assimetria de informação ocorrer quando a informação é demostrada de diferentes formas a diferentes usuários</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>assimetria </texto><texto referencia_lexico="prejudica">prejudica</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="prejudica"><texto>Prejudica</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="assimetria">assimetria</texto><texto> prejudica a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="assimetria">assimetria</texto><texto> prejudica a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="democracia"><texto>Democracia</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Democracia é uma forma de </texto><texto referencia_lexico="governo">governo</texto><texto> e têm dependência nos 3 poderes: legislativo, judiciário e executivo</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>democracia </texto><texto referencia_lexico="e proporcional a">é proporcional à</texto> <texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="pode ser regulamentada"><texto>Pode Ser Regulamentada</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> pode ser regulamentada por </texto><texto referencia_lexico="lei">lei</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> pode ser regulamentada por </texto><texto referencia_lexico="lei">lei</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="lei"><texto>Lei</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>norma ou conjunto de </texto><texto referencia_lexico="normas">normas</texto><texto> jurídicas criadas através dos processos próprios do ato normativo e estabelecidas pelas autoridades competentes (</texto><texto referencia_lexico="governo">governo</texto><texto>)</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> pode ser regrada por lei</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="governo"><texto>Governo</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>governo é um subtipo de </texto><texto referencia_lexico="organizacao">organização</texto><texto>, que é a autoridade governante de uma unidade política</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>governo </texto><texto referencia_lexico="pode controlar">pode controlar</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><texto>
+governo </texto><texto referencia_lexico="e subtipo de">é um tipo de</texto><texto> organizacao</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="pode controlar"><texto>Pode Controlar</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="governo">governo</texto><texto> pode controlar a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="governo">governo</texto><texto> pode controlar a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="autonomia"><texto>Autonomia</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Livre escolha</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="permite">permite</texto><texto> autonomia.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="permite"><texto>Permite</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Dar direito à.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto><texto> permite </texto><texto referencia_lexico="autonomia">autonomia</texto><texto>.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="comparabilidade"><texto>Comparabilidade</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Ato de verificar semelhanças e diferenças entre no mínimo duas entidades.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="permite">permite</texto><texto> a comparabilidade.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="corrupcao"><texto>Corrupção</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto> Ação ou efeito de corromper.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="e eficaz contra">é eficaz contra</texto><texto> a corrupção.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="e eficaz contra"><texto>é Eficaz Contra</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>A transparência </texto><texto referencia_lexico="ajuda">ajuda</texto><texto> com sucesso a combater a </texto><texto referencia_lexico="corrupcao">corrupção</texto><texto>.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A transparêcia é eficaz contra a </texto><texto referencia_lexico="corrupcao">corrupção</texto><texto>.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="normas"><texto>Normas</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Preceito, regra.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>normas estabelecem regras para a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="acuracia"><texto>Acuracia</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Exatidão.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="permite">permite</texto><texto> a acuracia.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="e demandada pelo"><texto>é Demandada Pelo</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>É exigida pelo</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto><texto> é demandada pelo </texto><texto referencia_lexico="usuario">usuario</texto><texto>.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="direitos humanos"><texto>Direitos Humanos</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Faculdade legal de praticar ou não praticar um ato.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="evidencia">evidencia</texto><texto> os direitos humanos.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="liberdade"><texto>Liberdade</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Poder de exercer livremente a sua vontade.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="e demandada pelo">é demandada pelo</texto><texto> direito de liberdade.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="mercado"><texto>Mercado</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Esfera das relações econômicas de compra e venda, de cujo ajuste resulta o preço.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>O mercado </texto><texto referencia_lexico="estimula">estimula</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><texto>.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="sustentabilidade"><texto>Sustentabilidade</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Qualidade de sustentável.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="ajuda">ajuda</texto><texto> a sustentabilidade.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="usuario"><texto>Usuario</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Aquele que usa.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="e demandada pelo">é demandada pelo</texto><texto> usuario.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="linguagem"><texto>Linguagem</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Conjunto de sinais falados (glótica), escritos (gráfica) ou gesticulados (mímica), de que se serve o homem para exprimir suas ideias e sentimentos. </texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto> <texto referencia_lexico="molda">molda</texto><texto> a linguagem, através da padronização da comunicação.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="molda"><texto>Molda</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Dar molde à.</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>A </texto><texto referencia_lexico="transparencia">transparencia</texto><texto> molda a </texto><texto referencia_lexico="linguagem">linguagem</texto><texto>.</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="estimula"><texto>Estimula</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>fornecer estímulo, despertar</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="mercado">mercado</texto><texto> estimula a transparência</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="estabelece"><texto>Estabelece</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Dar estabilidade a, tornar estável ou firme</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="normas">normas</texto><texto> estabelece regras para a transparência</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="organizacao"><texto>Organização</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Constituição de um estabelecimento público ou particular</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>Organização </texto><texto referencia_lexico="pode controlar">pode controlar</texto><texto> a transparência</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="empresa"><texto>Empresa</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Sociedade organizada para a exploração de uma indústria ou comércio; estabelecimento, casa</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>É um subtipo de </texto><texto referencia_lexico="organizacao">organização</texto>
+<texto referencia_lexico="pode controlar">pode controlar</texto><texto> a transparência</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="concorrencia"><texto>Concorrência</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Pretensão de mais de uma pessoa à mesma coisa; competição</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>Concorrência </texto><texto referencia_lexico="promove">promove</texto><texto> a transparência</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="alienacao"><texto>Alienação</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Indiferença com relação aos assuntos tratados</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>Alienação </texto><texto referencia_lexico="prejudica">prejudica</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><texto>
+Alienação </texto><texto referencia_lexico="prejudica">prejudica</texto><texto> a </texto><texto referencia_lexico="transparencia direcionada">transparencia direcionada</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="transparencia externa"><texto>Transparência Externa</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>transparência gerada para o público</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>transparência externa é um subtipo de </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="transparencia interna"><texto>Transparencia Interna</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Transparência gerada para os membros internos de uma </texto><texto referencia_lexico="organizacao">organização</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>É subtipo de transparência</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="transparencia emergente"><texto>Transparencia Emergente</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto referencia_lexico="transparencia">transparencia</texto><texto> que surge, que resulta de algum ato</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto>É subtipo de </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="relacoes internacionais"><texto>Relacoes Internacionais</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Relacionamento entre diferentes países</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="facilita">facilita</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto>
+<texto referencia_lexico="facilita">facilita</texto><texto> a </texto><texto referencia_lexico="transparencia">transparencia</texto><texto> externa</texto><pt></pt></sentenca></impacto>
+</lexico>
+<lexico>
+<nome_simbolo id="impede"><texto>Impede</texto></nome_simbolo>
+<sinonimos></sinonimos>
+<nocao><sentenca><texto>Opor-se, colocar um obstáculo</texto><pt></pt></sentenca></nocao>
+<impacto><sentenca><texto referencia_lexico="sigilo">sigilo</texto><texto> impede a </texto><texto referencia_lexico="transparencia">transparencia</texto><pt></pt></sentenca></impacto>
+</lexico>
+</projeto>
+</body></html>

@@ -2,7 +2,7 @@
 
 #### dia 10-nov-2014
 
-1.  Disponibilizar o nosso resultado das aulas de transparencia-2014 em formato HTML
+1.  Disponibilizar o nosso resultado das aulas de [transparencia-2014](proceso-lal-2014.md) em formato HTML
 2.  Permitir versonamento das mudanças no Lexico
 3.  Tentar reproduzir a primera versão de navegabilidade do Léxico. [Prototipo](mockup-inicial-XML-lexico-visualizator.png)
 

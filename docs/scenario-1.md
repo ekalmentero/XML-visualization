@@ -12,15 +12,3 @@
 >  -the user selects the term  
 >  -the site shows the content of the term  
 > **constrains**: the user doesnt found any term
-
-
-###scenario-qwertyuio
-[#US-2] (user-stories-lexico-visualizator.md#us-2)
-
-> Objective: dasda  
-> Context:  
-> Roles:  
-> Resources:  
-> Exceptions:  
-> Episodies:  
-> constrains: adas

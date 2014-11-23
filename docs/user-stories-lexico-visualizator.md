@@ -1,7 +1,7 @@
 #User Stories
 
 ###US-1  
-> As a user I want to be able to search a term so I could read its meaning  in the Lexicon
+> As a user I want to be able to search a term so I could read its meaning in the Lexicon
 
 ###US-2:
 > As a user I want to be able to import a xml file so I could upload the XML gerated in the C&L

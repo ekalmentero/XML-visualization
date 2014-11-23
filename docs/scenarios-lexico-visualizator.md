@@ -10,4 +10,4 @@
 
 #5 As a user I want to be helped in the search so I could see what terms its available with a letter
 
-#6 As a user I want a cloud presentation of all the terms  so I could visualize how much a term is referenced in the Lexicon
+> [As a user I want a cloud presentation of all the terms  so I could visualize how much a term is referenced in the Lexicon] [1]

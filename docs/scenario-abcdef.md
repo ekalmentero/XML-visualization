@@ -3,7 +3,7 @@
 
 > **Objective**: read a lexicon-term searched  
 > **Context**:  the user is in the XML  
-> **Roles**:  
+> **Roles**:  user
 > **Resources**: website, xml exported from c&l  
 > **Exceptions**:  the xml wanted to read had to be imported:[user-stories-lexico-visualizator.md#us-3]  > **Episodies**:  
 >  -the user insert the first letter of the term in the search box  

@@ -1,6 +1,5 @@
 ###scenario-2
-**As a user I want to be able to import a xml file so I could upload the XML gerated in the C&L**  
-[#US-2]**(user-stories-lexico-visualizator.md#us-2)  
+**Import a xml file gerated by the C&L tool [#US-2](user-stories-lexico-visualizator.md#us-2)**  
 
 > **Objective**: Import a XML of the lexicon created in the C&L tool.  
 > **Context**: place: anywhere which has a browser. estado: the user wants to navigate through the lexicon he created in the C&L tool.  

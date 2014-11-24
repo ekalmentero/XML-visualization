@@ -1,6 +1,5 @@
 ###scenario-6  
-**As a user I want a cloud presentation of all the words so I could visualize how much a word is referenced in the Lexicon **[#US-6] (user-stories-lexico-visualizator.md#us-6)  
-
+**Show a cloud of words exposing their relevance [#US-6] (user-stories-lexico-visualizator.md#us-6) **  
 > **Objective**: visualize how much a word is referenced in the lexicon  
 > **Context**: place: anywhere which has a browser. estado: the user wants easely see how much a word is referenced  
 > **Roles**:  user  

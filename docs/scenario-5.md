@@ -1,6 +1,5 @@
 ###scenario-5
-**As a user I want to be helped in the search so I could see which words are available with a letter
-[#US-5] (user-stories-lexico-visualizator.md#us-5)**
+**Autocomplete When searching a word [#US-5](user-stories-lexico-visualizator.md#us-5)**  
 
 > **Objective**: find a list of words that start with the same letters  
 > **Context**: place: anywhere which has a browser. estado: the user doesnt known which words exist in the lexicon.  

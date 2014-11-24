@@ -1,5 +1,5 @@
 ###scenario-4
-**visualize the history of navigation in a four-quadrant presentation [#US-4] (user-stories-lexico-visualizator.md#us-4)**
+**visualize the history of navigation in a four-quadrant presentation [#US-4](user-stories-lexico-visualizator.md#us-4)**  
 
 > **Objective**: visualize the relations between the words searched in the Lexicon  
 > **Context**: place: anywhere which has a browser. estado: the user is reading the lexicon  

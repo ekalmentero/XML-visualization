@@ -1,0 +1,32 @@
+{
+  "name": "XML-visualization",
+  "version": "1.0.0",
+  "description": "package grunt for xml-visualizator project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitanilla/XML-visualization.git"
+  },
+  "keywords": [
+    "xml",
+    "grunt",
+    "lexico"
+  ],
+  "author": "Roxana Portugal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitanilla/XML-visualization/issues"
+  },
+  "homepage": "https://github.com/nitanilla/XML-visualization",
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.6.0"
+  }
+}

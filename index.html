@@ -114,22 +114,23 @@
       <div class="sidebar-nav navbar-collapse">
         <ul class="nav" id="side-menu">
           <!-- ###scenario-> As a user I want to be able to search a term so I could read its meaning in the Lexicon
-[#US-1] (user-stories-lexico-visualizator.md#us-1)
+            [#US-1] (user-stories-lexico-visualizator.md#us-1)
 
-> **Objective**: read a lexicon-term searched
-> **Context**:  the user is in the XML
-> **Roles**:  user
-> **Resources**: website, xml exported from c&l
-> **Exceptions**: [the xml wanted to read had to be imported] (user-stories-lexico-visualizator.md#us-3)
-> **Episodies**:
->  -the user insert the first letter of the term in the search box
->  -[the site shows the terms existing in the lexicon](user-stories-lexico-visualizator.md#us-5)
->  -the user selects the term
->  -the site shows the content of the term
-> **constrains**: the user doesnt found any term
- -->
+            > **Objective**: read a lexicon-term searched
+            > **Context**:  the user is in the XML
+            > **Roles**:  user
+            > **Resources**: website, xml exported from c&l
+            > **Exceptions**: [the xml wanted to read had to be imported] (user-stories-lexico-visualizator.md#us-3)
+            > **Episodies**:
+            >  -the user insert the first letter of the term in the search box
+            >  -[the site shows the terms existing in the lexicon](user-stories-lexico-visualizator.md#us-5)
+            >  -the user selects the term
+            >  -the site shows the content of the term
+            > **constrains**: the user doesnt found any term
+           -->
           <li class="sidebar-search">
-            <div class="input-group custom-search-form">
+          
+          <div class="input-group custom-search-form">
 
               <div class="ui-widget">
                 <input type="text" class="form-control" placeholder="Search..." id="termo_pesquisa">
@@ -141,23 +142,18 @@
                   <i class="fa fa-search"></i>
                 </button>
               </span>
-            </div>
+           </div>
             <!-- /input-group -->
           </li>
         </ul>
         <!-- /TO-DO cloud tag -->
-
-
-
-
-
       </div>
       <!-- /.sidebar-collapse -->
     </div>
+<!-- fim search box -->
 
-
-    <!-- /.navbar-static-side -->
-  </nav>
+  <!--   /.navbar-static-side
+  </nav> -->
 
   <div id="page-wrapper">
     <!-- <div class="row">
@@ -167,226 +163,176 @@
 
 </div> -->
 <!-- /.row -->
-<div class="row">
+    <div class="row">
 
 
   <!-- /.row -->
 
   <!-- Projects Row -->
-  <div class="row">
+    <div class="row">
 
     <!--    Inicio do primero quadrante-->
-
     <div class="row">
       <div class="col-md-6 portfolio-item">
         <div class="panel panel-default">
           <div class="panel-body">
-
             <div class="panel panel-default">
-
-
               <!-- Default panel Informações sobre o Simbolo -->
               <div class="panel-heading"><span id="nm_simb1"></span></div>
-
-              <!-- Table detalhe de simbolo -->
-              <table class="table">
-                <tr>
-                  <th data-field="id"><span id="nome_principal">Noção</span></th>
-                  <td id="td_id_1" class="td-class-1"><p id="noc_simb1"></p></td>
-                </tr>
-                <tr>
-                  <th data-field="id">Impacto(s) </th>
-                  <td id="td_id_1" class="td-class-1"><p id="imp_simb1"></p></td>
-                </tr>
-              </table>
-
-            </div>
-            <!-- fim panel Informações sobre o Simbolo-->
-
-            <!-- Inicio panel de termos que referenciam ao simbolo-->
-
-            <div class="panel panel-default">
-
-              <!-- Table detalhe de termos que referenciam -->
-              <table class="table">
-                <tr>
-                  <th data-field="id">Referências a este símbolo</th>
-                </tr>
-                <tr>
-                  <td data-field="id"<span id="ref_simb1"></span></th>
-                  </tr>
-                </table>
-                <!-- Final Table detalhe de termos que referenciam -->
-              </div>
-
-              <!-- Inicio panel de termos que referenciam ao simbolo-->
-            </div>
-          </div>
-        </div>
-        <!--      Fim do primer quadrante-->
-
-        <!--      Inicio do segundo quadrante-->
-        <div class="col-md-6 portfolio-item">
-          <div class="panel panel-default">
-            <div class="panel-body">
-
-              <div class="panel panel-default">
-
-
-                <!-- Default panel Informações sobre o Simbolo -->
-                <div class="panel-heading"><span id="nm_simb2"></span></div>
-
                 <!-- Table detalhe de simbolo -->
-                <table class="table">
-                  <tr>
-                    <th data-field="id">Noção</th>
-                    <td id="td_id_1" class="td-class-1"><p id="noc_simb2"></p></td>
-                  </tr>
-                  <tr>
-                    <th data-field="id">Impacto(s) </th>
-                    <td id="td_id_1" class="td-class-1"><p id="imp_simb2"></p></td>
-                  </tr>
-                </table>
-
-              </div>
-              <!-- fim panel Informações sobre o Simbolo-->
-
-              <!-- Inicio panel de termos que referenciam ao simbolo-->
-
-              <div class="panel panel-default">
-
-                <!-- Table detalhe de termos que referenciam -->
-                <table class="table">
-                  <tr>
-                    <th data-field="id">Referências a este símbolo</th>
-                  </tr>
-                  <tr>
-                    <td data-field="id"><span id="ref_simb2"></span></th>
-                    </tr>
-                  </table>
-                  <!-- Final Table detalhe de termos que referenciam -->
-                </div>
-
-                <!-- Inicio panel de termos que referenciam ao simbolo-->
-              </div>
-            </div>
-          </div>
-          <!--       Fim do segundo quadrante-->
-        </div>
-
-        <div class="row">
-          <!--       Inicio do terceiro quadrante-->
-          <div class="col-md-6 portfolio-item">
-            <div class="panel panel-default">
-              <div class="panel-body">
-
-                <div class="panel panel-default">
-
-
-                  <!-- Default panel Informações sobre o Simbolo -->
-                  <div class="panel-heading"><span id="nm_simb3"></span></div>
-
-                  <!-- Table detalhe de simbolo -->
                   <table class="table">
                     <tr>
-                      <th data-field="id">Noção</th>
-                      <td id="td_id_1" class="td-class-1"><p id="noc_simb3"></p></td>
+                      <th data-field="id"><span id="nome_principal">Noção</span></th>
+                      <td id="td_id_1" class="td-class-1"><p id="noc_simb1"></p></td>
                     </tr>
-
                     <tr>
                       <th data-field="id">Impacto(s) </th>
-                      <td id="td_id_1" class="td-class-1"><p id="imp_simb3"></p></td>
+                      <td id="td_id_1" class="td-class-1"><p id="imp_simb1"></p></td>
                     </tr>
-
                   </table>
-
-                </div>
-                <!-- fim panel Informações sobre o Simbolo-->
-
-                <!-- Inicio panel de termos que referenciam ao simbolo-->
-
-                <div class="panel panel-default">
-
-                  <!-- Table detalhe de termos que referenciam -->
+            </div>
+              <!-- fim panel Informações sobre o Simbolo-->
+              <!-- Inicio panel de termos que referenciam ao simbolo-->
+            <div class="panel panel-default">
+              <!-- Table detalhe de termos que referenciam -->
                   <table class="table">
                     <tr>
                       <th data-field="id">Referências a este símbolo</th>
                     </tr>
                     <tr>
-                      <td data-field="id"><span id="ref_simb3"></span></th>
+                      <td data-field="id"<span id="ref_simb1"></span></th>
                       </tr>
-                    </table>
-                    <!-- Final Table detalhe de termos que referenciam -->
-                  </div>
+                  </table>
+              <!-- Final Table detalhe de termos que referenciam -->
+             </div>
+          </div>
+        </div>
+      </div>
+    <!--Fim do primer quadrante-->
 
-                  <!-- Inicio panel de termos que referenciam ao simbolo-->
-                </div>
-              </div>
+    <!--    Inicio do segundo quadrante-->
+    <div class="row">
+      <div class="col-md-6 portfolio-item">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="panel panel-default">
+              <!-- Default panel Informações sobre o Simbolo -->
+              <div class="panel-heading"><span id="nm_simb2"></span></div>
+                <!-- Table detalhe de simbolo -->
+                  <table class="table">
+                    <tr>
+                      <th data-field="id"><span id="nome_principal">Noção</span></th>
+                      <td id="td_id_1" class="td-class-1"><p id="noc_simb2"></p></td>
+                    </tr>
+                    <tr>
+                      <th data-field="id">Impacto(s) </th>
+                      <td id="td_id_1" class="td-class-1"><p id="imp_simb2"></p></td>
+                    </tr>
+                  </table>
             </div>
-            <!--       Fim do terceiro quadrante-->
-
-            <!--       Inicio do quarto quadrante-->
-            <div class="col-md-6 portfolio-item">
-              <div class="panel panel-default">
-                <div class="panel-body">
-
-                  <div class="panel panel-default">
-
-
-                    <!-- Default panel Informações sobre o Simbolo -->
-                    <div class="panel-heading"><span id="nm_simb4"></span></div>
-
-                    <!-- Table detalhe de simbolo -->
-                    <table class="table">
-                      <tr>
-                        <th data-field="id">Noção</th>
-                        <td id="td_id_1" class="td-class-1"><p id= "noc_simb4"></p></td>
+              <!-- fim panel Informações sobre o Simbolo-->
+              <!-- Inicio panel de termos que referenciam ao simbolo-->
+            <div class="panel panel-default">
+              <!-- Table detalhe de termos que referenciam -->
+                  <table class="table">
+                    <tr>
+                      <th data-field="id">Referências a este símbolo</th>
+                    </tr>
+                    <tr>
+                      <td data-field="id"<span id="ref_simb2"></span></th>
                       </tr>
+                  </table>
+              <!-- Final Table detalhe de termos que referenciam -->
+             </div>
+          </div>
+        </div>
+      </div>
+    <!--Fim do primer quadrante-->    
 
-                      <tr>
-                        <th data-field="id">Impacto(s) </th>
-                        <td id="td_id_1" class="td-class-1"><p id="imp_simb4"></p></td>
-                      </tr>
-
-                    </table>
-
-                  </div>
-                  <!-- fim panel Informações sobre o Simbolo-->
-
-                  <!-- Inicio panel de termos que referenciam ao simbolo-->
-
-                  <div class="panel panel-default">
-
-                    <!-- Table detalhe de termos que referenciam -->
-                    <table class="table">
-                      <tr>
-                        <th data-field="id">Referências a este símbolo</th>
-                      </tr>
-                      <tr>
-                        <td data-field="id"><span id="ref_simb4"></span></th>
-                        </tr>
-
-                      </table>
-                      <!-- Final Table detalhe de termos que referenciam -->
-                    </div>
-
-                    <!-- Inicio panel de termos que referenciam ao simbolo-->
-                  </div>
-                </div>
-              </div>
-              <!--        Fim do quarto quadrante-->
-
+    <!--    Inicio do terceiro quadrante-->
+    <div class="row">
+      <div class="col-md-6 portfolio-item">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="panel panel-default">
+              <!-- Default panel Informações sobre o Simbolo -->
+              <div class="panel-heading"><span id="nm_simb3"></span></div>
+                <!-- Table detalhe de simbolo -->
+                  <table class="table">
+                    <tr>
+                      <th data-field="id"><span id="nome_principal">Noção</span></th>
+                      <td id="td_id_1" class="td-class-1"><p id="noc_simb3"></p></td>
+                    </tr>
+                    <tr>
+                      <th data-field="id">Impacto(s) </th>
+                      <td id="td_id_1" class="td-class-1"><p id="imp_simb3"></p></td>
+                    </tr>
+                  </table>
             </div>
+              <!-- fim panel Informações sobre o Simbolo-->
+              <!-- Inicio panel de termos que referenciam ao simbolo-->
+            <div class="panel panel-default">
+              <!-- Table detalhe de termos que referenciam -->
+                  <table class="table">
+                    <tr>
+                      <th data-field="id">Referências a este símbolo</th>
+                    </tr>
+                    <tr>
+                      <td data-field="id"<span id="ref_simb3"></span></th>
+                      </tr>
+                  </table>
+              <!-- Final Table detalhe de termos que referenciam -->
+             </div>
+          </div>
+        </div>
+      </div>
+    <!--Fim do terceiro quadrante-->
 
-
-            <!-- Projects Row -->
-            <div class="row">
-
+    <!--    Inicio do quarto quadrante-->
+    <div class="row">
+      <div class="col-md-6 portfolio-item">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="panel panel-default">
+              <!-- Default panel Informações sobre o Simbolo -->
+              <div class="panel-heading"><span id="nm_simb4"></span></div>
+                <!-- Table detalhe de simbolo -->
+                  <table class="table">
+                    <tr>
+                      <th data-field="id"><span id="nome_principal">Noção</span></th>
+                      <td id="td_id_1" class="td-class-1"><p id="noc_simb4"></p></td>
+                    </tr>
+                    <tr>
+                      <th data-field="id">Impacto(s) </th>
+                      <td id="td_id_1" class="td-class-1"><p id="imp_simb4"></p></td>
+                    </tr>
+                  </table>
             </div>
-            <!-- /.row -->
+              <!-- fim panel Informações sobre o Simbolo-->
+              <!-- Inicio panel de termos que referenciam ao simbolo-->
+            <div class="panel panel-default">
+              <!-- Table detalhe de termos que referenciam -->
+                  <table class="table">
+                    <tr>
+                      <th data-field="id">Referências a este símbolo</th>
+                    </tr>
+                    <tr>
+                      <td data-field="id"<span id="ref_simb4"></span></th>
+                      </tr>
+                  </table>
+              <!-- Final Table detalhe de termos que referenciam -->
+             </div>
+          </div>
+        </div>
+      </div>
+    <!--Fim do quarto quadrante-->
 
-            <hr>
+    <!-- Projects Row -->
+    <div class="row">
+    </div>
+    <!-- /.row -->
 
+    <hr>
             <!-- Pagination -->
             <div class="row text-center">
               <div class="col-lg-12">
@@ -415,7 +361,7 @@
                 </ul>
               </div>
             </div>
-            <!-- /.row -->
+     <!-- /.row -->
 
             <hr>
 

@@ -1,10 +1,13 @@
-###scenario-
-[#US-2] (user-stories-lexico-visualizator.md#us-2)
+###scenario-2
+**As a user I want to be able to import a xml file so I could upload the XML gerated in the C&L**  
+[#US-2] (user-stories-lexico-visualizator.md#us-2)**
 
-> Objective: dasda
-> Context:
-> Roles:
-> Resources:
-> Exceptions:
-> Episodies:
-> constrains: adas
+> **Objective**: Import a XML of the lexicon created in the C&L tool.  
+> **Context**: place: anywhere which has a browser. estado: the user wants to navigate through the lexicon he created in the C&L tool.  
+> **Roles**:  user  
+> **Resources**: Browser, site with the option to upload a file.  
+> **Exceptions**: the user doesnt provide the xml gerated by the C&L tool  
+> **Episodies**:  
+>  -the user selects the location where the file xml exist  
+>  -the site verify the format of the file and upload to the site
+>  -the site informs to the user whether the file has been right or worng uploaded  

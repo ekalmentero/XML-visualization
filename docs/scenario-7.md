@@ -1,5 +1,5 @@
 ###scenario-7
-*Navigate through the links in the content of a lexicon word [#US-4](user-stories-lexico-visualizator.md#us-4)*
+**Navigate through the links in the content of a lexicon word [#US-4](user-stories-lexico-visualizator.md#us-4)**
 
 > **Objective**: Visualize in four quadrants the navigation throught the hyperlinks in the content of the Lexicon  
 > **Context**: place: anywhere which has a browser. estado: the user is navigating & reading words in the lexicon  

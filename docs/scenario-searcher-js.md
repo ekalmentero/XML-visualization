@@ -8,9 +8,9 @@
 > **Exceptions**:    
 > **Episodies**:  
 >  
-> #S1.E1 the user insert the first letter of the word in the search box 
-> #S1.E2 When typing the word, the searcher will filter the words that match and list them.
-> #S1.E3 the user selects a word in the list
+> ####the user insert the first letter of the word in the search box 
+> #[autocomplete]:When typing the word, the searcher will filter the words that match and list them.
+> #*S1.E3 the user selects a word in the list*
 > #S1.E4 the searcher shows the content with the following [structure] (scenario-content-html.md)
 >
 > **constrains**: the content doesnt have all the values of the structure

@@ -15,4 +15,4 @@
 >  - the site moves the first word searched to the third quadrant, the second to the second quadrant and shows the meaning of the current word searched to the first quadrant  
 >  - the user searchs another word in the Lexicon  
 >  - the site moves the first word searched to the fourth quadrant, the second to the third quadrant, the third to the second quadrant and shows the meaning of the current word searched to the first quadrant  
-> **constrains**: [the xml wanted to read had to be imported](user-stories-lexico-visualizator.md#scenario-2)
+> **constrains**: [the xml wanted to read had to be imported](#scenario-2.md)

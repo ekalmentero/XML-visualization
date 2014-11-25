@@ -10,4 +10,4 @@
 >  -the user insert the firsts letters of the word in the search box  
 >  -the site shows the words existing in the lexicon filtering each time the user enters more than one letter  
 >  -the user selects one desired word from the list  
-> **constrains**: [the xml wanted to read had to be imported](user-stories-lexico-visualizator.md#scenario-2)  
+> **constrains**: [the xml wanted to read had to be imported](#scenario-2)  

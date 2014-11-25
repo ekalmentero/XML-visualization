@@ -8,7 +8,7 @@
 > **Exceptions**: the user doesnt found any word  
 > **Episodies**:  
 >  -the user insert the first letter of the word in the search box  
->  -[the site shows the words existing in the lexicon](user-stories-lexico-visualizator.md#scenario-5)  
+>  -[the site shows the words existing in the lexicon](scenario-5.md#scenario-5)  
 >  -the user selects the word  
 >  -the site shows the content of the word  
-> **constrains**: [the xml wanted to read had to be imported](user-stories-lexico-visualizator.md#scenario-2)  
+> **constrains**: [the xml wanted to read had to be imported](scenario-2.md#scenario-2)  

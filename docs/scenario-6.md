@@ -8,4 +8,4 @@
 > **Episodies**:  
 >  -the user open the site  
 >  -the site shows a cloud of words showing all the word of the lexicon by degree of referenced  
-> **constrains**: [the xml wanted to read had to be imported](user-stories-lexico-visualizator.md#scenario-2)  
+> **constrains**: [the xml wanted to read had to be imported](scenario-2.md#scenario-2)  

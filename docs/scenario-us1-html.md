@@ -10,4 +10,4 @@
 > - the user select a word of the autocomplete
 > - the content is showed in the site using the following [structure](scenario-content-word-html.md)
 
-> **constrains**: the browser isnt compatible with the autocomplete
+> **Constrains**: the browser isnt compatible with the autocomplete

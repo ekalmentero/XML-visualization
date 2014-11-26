@@ -1,4 +1,4 @@
-[#US-1](user-stories-lexico-visualizator.md#us-1)
+**[#US-1](user-stories-lexico-visualizator.md#us-1)**  
 ###scenario-searcher-html
 
 > **Objective**: read the lexicon-word searched  

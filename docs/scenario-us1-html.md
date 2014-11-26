@@ -1,5 +1,4 @@
-###scenario-searcher-html  
-**Search a word in the Lexicon [#US-1](user-stories-lexico-visualizator.md#us-1)**  
+###scenario-searcher-html [#US-1](user-stories-lexico-visualizator.md#us-1)**  
 
 > **Objective**: read the lexicon-word searched  
 > **Context**: place: anywhere which has a browser. estado: the user wants to know the meaning of a word in the lexicon.  

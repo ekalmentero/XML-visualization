@@ -1,4 +1,4 @@
-###scenario-1  
+###scenario-searcher-html  
 **Search a word in the Lexicon [#US-1](user-stories-lexico-visualizator.md#us-1)**  
 
 > **Objective**: read the lexicon-word searched  

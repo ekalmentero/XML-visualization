@@ -14,3 +14,14 @@
 .cloud .ref_simbolo .weight-5 {font-size: 35px;}
 .cloud .ref_simbolo .weight-6 {font-size: 40px;}
 
+table{
+	width: 100%;
+} td.tab{
+	color: #667;
+	padding:1px 5px 1px 2px;
+	border-left:0; 
+	text-align:right;
+	width: 40%;
+	font-size: small;
+	
+}

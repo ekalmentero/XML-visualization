@@ -2,20 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>One Post | </title>
+    <title>Visualizer | </title>
     <link rel="stylesheet" href="assets/assemble.css">
     <link rel="stylesheet" href="assets/github.css">
 
     <!-- Meu CSS -->
     <link href="css/meucss.css" rel="stylesheet">
 
+    <!-- Fonts css  -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
-    <script src="js/jquery-1.11.1.js"></script> 
-    <script src="js/jqcloud-1.0.4.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/jqcloud.css">
+  
+    <!-- Meu JS -->
     <script src="js/meujs.js"></script>
 
+    <!-- Jcloud Scripts -->
+    <script src="js/jqcloud-1.0.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jqcloud.css">
+
     <!-- JQuery UI Scripts -->
+    <script src="js/jquery-1.11.1.js"></script> 
     <script src="js/jquery-ui.js"></script>
     
     
@@ -80,15 +86,12 @@
               <span class="nav-section-title">
                 Pesquisar
               </span>
-              <form class="bs-example.form-inline">
-                <fieldset>
+              <form id="pesquisa_form" onsubmit="Searching()">
+                <frameset>
                  <input type="text" placeholder="Search..." id="termo_pesquisa">
-                 
-                 <input style="width:30px" type="submit" id="btn_pesquisar" value="P">
-                </fieldset>
+                 <button id="btn_pesquisar"><i class="fa fa-search"></i></button>
+                </frameset>
               </form>
-
-              
             </div>
           </div>
           <!-- end searcher column -->

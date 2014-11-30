@@ -32,17 +32,17 @@ $(document).ready(function(){
 
 });
 
-
-function Searching(){
+function Searching() {
     // body...
     var form = document.getElementById('pesquisa_form');
     var termo_pesquisa = form.elements.namedItem('termo_pesquisa').value;
     if (termo_pesquisa !="") {
-        parseXmlBusca(termo_pesquisa,false);
+        parseXmlBusca(termo_pesquisa,false)
     } 
     alert(termo_pesquisa);
-}
+alert('hola');
 
+};
 
 function aoCarregarPagina(){
        

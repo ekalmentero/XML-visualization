@@ -4,7 +4,8 @@ $(document).ready(function(){
 
     verificarSimbolosQueReferenciam2();
 
-   
+  
+  /*temporalmente desactivated*/ 
 /*
     $("#btn_pesquisar").click(function(){
         

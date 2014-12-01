@@ -11,6 +11,10 @@
 
     <!-- Css for alerts included in Bootstrap -->
     
+    <!-- Jquery UI CSS - Autocomplete -->
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery-ui.structure.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery-ui.theme.css" rel="stylesheet" type="text/css">
 
 
     <!-- Fonts for icons css  -->
@@ -18,17 +22,19 @@
     
   
     <!-- Meu JS -->
-    <script src="js/meujs.js"></script>
+    <script src="js/jquery-1.11.1.js"></script> 
 
-    <!-- JCloud Scripts -->
+
+    <!-- JQuery UI Scripts -->
+    <script src="js/jquery-ui.js"></script>
+
+       <!-- JCloud Scripts -->
     <script src="js/jqcloud-1.0.4.js"></script>
     <link rel="stylesheet" type="text/css" href="css/jqcloud.css">
 
-    <!-- JQuery UI Scripts -->
-    <script src="js/jquery-1.11.1.js"></script> 
-    <script src="js/jquery-ui.js"></script>
-    
-    
+    <script src="js/meujs.js"></script>
+ 
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -93,8 +99,8 @@
               <form id="pesquisa_form" onsubmit="Searching()">
                 <frameset>
                  <label value="asd" class="nav-section-title">PESQUISAR</label>
-                 <input type="text" placeholder="Search..." id="termo_pesquisa">
-                 <button id="btn_pesquisar"><i class="fa fa-search"></i></button>
+                 <input type="text" placeholder="Search..." id="searchText">
+                 <button id="searchBtn"><i class="fa fa-search"></i></button>
                 </frameset>
               </form>
               <span><p></br></span>
@@ -272,7 +278,7 @@
             <!-- begin cloud -->
             <div>
              <div class="col col-lg-10"> 
-               <span>cloud</span>
+               <span></span>
                <div id="tag_cloud" class="cloud"></div>
              </div>   
             </div>
@@ -287,7 +293,7 @@
 
     </div>
       
-      <script src="assets/js/highlight.js"></script>
+      
 
   </body>
 </html>

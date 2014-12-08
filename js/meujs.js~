@@ -3,8 +3,8 @@ $(document).ready(function(){
     
     //include autocomplete in the search field
     lexiconModule.includeAutoComplete();
-
-    verificarSimbolosQueReferenciam2();
+    lexiconModule.createLexiconCloud();
+    //verificarSimbolosQueReferenciam2();
 
 
     $("#todos").click(function(){

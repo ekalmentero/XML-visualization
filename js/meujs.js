@@ -953,7 +953,8 @@ returnSymbolsThatReference: function (symbolId) {
                 
                 var currentSymbolId = $(this).find("nome_simbolo").attr("id");
 
-                var amoutOfSymbolReferences = verificarSimbolosQueReferenciam(id_simb_atual, true);
+                /*var amoutOfSymbolReferences = verificarSimbolosQueReferenciam(id_simb_atual, true);*/
+                var amoutOfSymbolReferences = returnSymbolsThatReference(currentSymbolId);
 
                 var currentSymbol = {symbolName:currentSymbolName, symbolId:currentSymbolId, 		 	
 		symbolAmoutOfReferences:amoutOfSymbolReferences};

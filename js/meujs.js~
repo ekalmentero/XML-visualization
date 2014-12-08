@@ -999,7 +999,7 @@ returnSymbolsThatReference: function (symbolId) {
                 // prepares the lexicon symbols to be shown in the html-cloud
                 $("#tag_cloud").append(" <a data-id-simb-ref='"+amoutOfReferencesOfEachSymbol[i].symbolId
 		+"' class='ref_simbolo' href ='#' ><span class='"+symbolCSSClass+"'>"
-		+amoutOfReferencesOfEachSymbol[i].currentSymbolName+"</span></a>");
+		+amoutOfReferencesOfEachSymbol[i].SymbolName+"</span></a>");
 
             }
 

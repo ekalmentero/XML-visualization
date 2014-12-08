@@ -772,6 +772,8 @@ returnSymbolsThatReference: function (symbolId) {
 
             var currentSymbolName = $(this).find("nome_simbolo").find("texto").text();
 
+   	    var currentSymbolQtd = 0;
+
             var currentSymbolWasFound = false;
 
             // Verify in the notion section 
@@ -783,8 +785,10 @@ returnSymbolsThatReference: function (symbolId) {
                     var referencedSymbolId = $(this).attr("referencia_lexico");
 
                     if (referencedSymbolId == symbolId){
-                        
-                        var currentSymbol = {symbolId:currentSymbolId, symbolName:currentSymbolName};
+            
+			currentSymbolQtd = currentSymbolQtd + 1;
+            
+                        var currentSymbol = {symbolId:currentSymbolId, symbolName:currentSymbolName, symbolQtd:currentSymbolQtd};
 
                         symbolsThatReference.push(currentSymbol);
 
@@ -952,7 +956,7 @@ returnSymbolsThatReference: function (symbolId) {
                 var currentSymbolName = $(this).find("nome_simbolo").find("texto").text()
                 
                 var currentSymbolId = $(this).find("nome_simbolo").attr("id");
-
+			
                 /*var amoutOfSymbolReferences = verificarSimbolosQueReferenciam(id_simb_atual, true);*/
                 var amoutOfSymbolReferences = returnSymbolsThatReference(currentSymbolId);
 
@@ -968,7 +972,7 @@ returnSymbolsThatReference: function (symbolId) {
             for (var i = 0; i < amoutOfReferencesOfEachSymbol.length; i++) {
 
                 //var amountOfReferences = amoutOfReferencesOfEachSymbol[i].qtd_ref;
-                var amountOfReferences = amoutOfReferencesOfEachSymbol[i].symbolAmoutOfReferences;
+                var amountOfReferences = amoutOfReferencesOfEachSymbol[i].symbolAmoutOfReferences.SymbolQtd;
 
                 alert(amountOfReferences);
 

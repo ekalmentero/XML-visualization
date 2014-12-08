@@ -22,8 +22,8 @@ $(document).ready(function(){
 // get the word searched 
 function Searching(){
     
-    if (termo_pesquisa !="") {
-        lexiconModule.searchByLexiconSymbol(termo_pesquisa,false);
+    if (searchText !="") {
+        lexiconModule.searchByLexiconSymbol(searchText,false);
         /*parseXmlBusca(termo_pesquisa,false);*/
     } 
     

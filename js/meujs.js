@@ -912,7 +912,8 @@ returnSymbolsThatReference: function (symbolId) {
                 select: function (event, ui){
 
                     var searchText = ui.item.value;
-                    parseXmlBusca(searchText, false);
+                    lexiconModule.searchByLexiconSymbol(searchText,false);
+/*                    parseXmlBusca(searchText, false);*/
                 }
             });
 

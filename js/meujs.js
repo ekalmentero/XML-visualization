@@ -23,7 +23,8 @@ $(document).ready(function(){
 function Searching(){
     
     if (termo_pesquisa !="") {
-        parseXmlBusca(termo_pesquisa,false);
+        lexiconModule.searchByLexiconSymbol(termo_pesquisa,false);
+        /*parseXmlBusca(termo_pesquisa,false);*/
     } 
     
 }

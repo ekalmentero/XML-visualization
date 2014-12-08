@@ -71,7 +71,7 @@ function meuAjax(type, url, dataType){
     });
 }    
 
-
+/*
 //Look for the searched symbol in the XML
 function parseXmlBusca(termo_pesquisa, porId){
 
@@ -231,7 +231,7 @@ function exibirNuvemTags(qtd_ref_simbolos){
           {text: "Sit", weight: 7},
           {text: "Amet", weight: 5}
       
-      ];*/
+      ];
 
     for (var i = 0; i < qtd_ref_simbolos.length; i++) {
         word_array[i] = [];
@@ -397,7 +397,7 @@ function montaListaIdSimbolos(){
 
 
 
-
+*/
 
 function verificarSimbolosQueReferenciam2(){
 

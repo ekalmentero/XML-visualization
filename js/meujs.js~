@@ -1,27 +1,12 @@
 $(document).ready(function(){
 
     
-    //INCLUDE AUTOCOMPLETE IN SEARCH FIELD
+    //include autocomplete in the search field
     lexiconModule.includeAutoComplete();
 
     verificarSimbolosQueReferenciam2();
 
 
-     
-  /*temporalmente desactivated*/ 
-/*
-    $("#btn_pesquisar").click(function(){
-        
-        var termo_pesquisa = $("#termo_pesquisa").val()
-
-        if (termo_pesquisa != ""){
-         
-            parseXmlBusca(termo_pesquisa, false);
-        
-        }
-       
-    });
-*/
     $("#todos").click(function(){
 
        // $("#conteudo").empty();  
@@ -30,28 +15,25 @@ $(document).ready(function(){
     });
 
 
-   // $(function(){
-  //      aoCarregarPagina();
-   // });
 
 });
 
 
+// get the word searched 
 function Searching(){
-    // body...
+    
     if (termo_pesquisa !="") {
         parseXmlBusca(termo_pesquisa,false);
     } 
-    //alert(termo_pesquisa);
+    
 }
 
-
+//to-do verify if rename
 function aoCarregarPagina(){
     
     $(".ref_simbolo" ).unbind( "click" );   
     $(".ref_simbolo").click(function(){
-        //alert("teste");
-        //alert($(this).data("id-simb-ref"));
+       
         parseXmlBusca($(this).data("id-simb-ref"), true);
 
 
@@ -59,6 +41,7 @@ function aoCarregarPagina(){
 }
     
 
+// control the status of a request
 function meuAjax(type, url, dataType){
 
     return $.ajax({
@@ -88,6 +71,8 @@ function meuAjax(type, url, dataType){
     });
 }    
 
+
+//Look for the searched symbol in the XML
 function parseXmlBusca(termo_pesquisa, porId){
 
 
@@ -111,15 +96,14 @@ function parseXmlBusca(termo_pesquisa, porId){
             var impacto = "";
             var nome_sinonimos = "";
 
-            //alert("comparando : "+$.trim(termo_pesquisa.toLowerCase())+" ----- com :"+$.trim(texto_comparacao.toLowerCase()));
-
+            //compare the searched symbol with the ones in the lexicon, all in lower case
             if($.trim(termo_pesquisa.toLowerCase()) == $.trim(texto_comparacao.toLowerCase())) {
 
 
-                // organiza exibição de sinônimos
+                // organize the exhibition of synonyms
                 $(this).find("sinonimos").find("sinonimo").each(function(){
 
-                   // se for o primeiro sinônimo, não coloca virgula antes de seu nome.
+                   // if this is the first synonym, does not put a comma before their name.
                    if ($(this).is(':first-child')){
                           
                         nome_sinonimos = nome_sinonimos + $(this).text();      
@@ -132,51 +116,51 @@ function parseXmlBusca(termo_pesquisa, porId){
                 });
 
 
-                //Organiza texto de noção
+                //Organize the notion text
                 $(this).find("nocao").find("texto").each(function(){
 
-            
-                                   
-                    // Verifica se a palavra referencia outro símbolo do léxico.      
+              
+                    // verifiy if the symbol references outros symbols in the lexicon     
                     if ($(this).is('[referencia_lexico]')) {
 
                         var id_referencia = $(this).attr("referencia_lexico");
 
-                        nocao = nocao + "<a data-id-simb-ref='"+id_referencia+"' class='ref_simbolo' href='#'>" + " " + $(this).text() + "</a>" + " ";
+                        nocao = nocao + "<a data-id-simb-ref='"+id_referencia+"' class='ref_simbolo' href='#'>" 
+                                + " " + $(this).text() + "</a>" + " ";
                     
-                    }else{
+                    } 
+                    else{
                         nocao = nocao + " " + $(this).text() + " ";
                     }
 
                 });
 
 
-                 //Organiza texto do impacto 
+                // Organize the impact text
                 $(this).find("impacto").find("texto").each(function(){
 
                      if ($(this).is('[referencia_lexico]')) {
 
                         var id_referencia = $(this).attr("referencia_lexico");
 
-                        impacto = impacto + "<a data-id-simb-ref='"+id_referencia+"' class='ref_simbolo' href ='#' >"+" "+$(this).text()+"</a>"+ " ";
+                        impacto = impacto + "<a data-id-simb-ref='"+id_referencia+"' class='ref_simbolo' href ='#' >"
+                                  +" "+$(this).text()+"</a>"+ " ";
 
-                    }else{
-
+                     }
+                     else{
                         impacto = impacto + " " + $(this).text() + " ";  
-
-                    }
-
+                     }
                 });
 
                
-                // exibe traço se não houve sinônimos ou insere um ponto final na lista.
+                // display dash if there were not synonymous, or insert an end to the list.
                 if ($.trim(nome_sinonimos) == "") {
                     nome_sinonimos = " - ";
                 } else{
                     nome_sinonimos = nome_sinonimos + ".";
                 }
 
-                // inicializa objeto que irá armazenar dados do simbolo
+                // initializes object that will hold the data symbol
                 var obj_simbolo = {id_simb: "", nome:"", nocao:"", impacto:"", classificacao:"", sinonimos:""};
 
                 obj_simbolo.id_simb = id_simb;

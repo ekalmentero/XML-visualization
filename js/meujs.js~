@@ -967,7 +967,8 @@ returnSymbolsThatReference: function (symbolId) {
             // depending on the amout of references of a lexicon symbol, set its css class.
             for (var i = 0; i < amoutOfReferencesOfEachSymbol.length; i++) {
 
-                var amountOfReferences = amoutOfReferencesOfEachSymbol[i].qtd_ref;
+                //var amountOfReferences = amoutOfReferencesOfEachSymbol[i].qtd_ref;
+                var amountOfReferences = amoutOfReferencesOfEachSymbol[i].symbolAmoutOfReferences;
 
                 alert(amountOfReferences);
 

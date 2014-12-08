@@ -334,7 +334,7 @@ function verificarSimbolosQueReferenciam(id_simbolo, ehContagem){
                 var textoRef = "";
                 for (var i = 0; i < simb_que_referenciam.length; i++) {
                     
-                    if (i == 0){
+                    if (i == 0){ $("#ref_simb1").html(" - ")
                         textoRef = textoRef + "<a data-id-simb-ref='"+simb_que_referenciam[i].id_simb+"' class='ref_simbolo' href ='#' >"+" "+simb_que_referenciam[i].nome+"</a>";
                     }else{
                         textoRef = textoRef + ", <a data-id-simb-ref='"+simb_que_referenciam[i].id_simb+"' class='ref_simbolo' href ='#' >"+" "+simb_que_referenciam[i].nome+"</a>";
@@ -400,7 +400,7 @@ function montaListaIdSimbolos(){
 
 */
 
-function verificarSimbolosQueReferenciam2(){
+/*function verificarSimbolosQueReferenciam2(){
 
     
     var promise = meuAjax("GET", "xml/lexico.xml", "xml");
@@ -595,7 +595,7 @@ function contarReferências(){
 
 
 
-
+*/
 
 /*###################################################################################################
    lexicon module
@@ -663,7 +663,7 @@ var lexiconModule = {
                 $(this).find("nocao").find("texto").each(function(){
 
                                              
-                    // Verify references to other symbols in notion text    
+                    // verify references to other symbols in notion text    
                     if ($(this).is('[referencia_lexico]')) {
 
                         var referencedSymbolId = $(this).attr("referencia_lexico");
@@ -681,7 +681,7 @@ var lexiconModule = {
                  //assembles impact text: content+hypertext+content
                 $(this).find("impacto").find("texto").each(function(){
 
-                     // Verify references to other symbols in impact text  
+                     // verify references to other symbols in impact text  
                      if ($(this).is('[referencia_lexico]')) {
 
                         var referencedSymbolId = $(this).attr("referencia_lexico");
@@ -868,6 +868,9 @@ returnSymbolsThatReference: function (symbolId) {
 
             $("#ref_simb1").html(referencesText);
         }
+ 
+         // para que os links dos simbolos que referenciam funcionem.
+            aoCarregarPagina();
 
     },
  

@@ -704,7 +704,7 @@ var lexiconModule = {
                 objSymbolFound.symbolImpact= symbolImpact;
                 objSymbolFound.symbolSynonyms = symbolSynonyms;
 
-                alert("inside :>"+objSymbolFound.symbolNotion)
+               // alert("inside :>"+objSymbolFound.symbolNotion)
 
                 // change the 2nd 3rd 4rd quadrant of contents
                 lexiconModule.changeOthersSymbols();

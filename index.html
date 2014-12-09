@@ -9,8 +9,6 @@
     <!-- Meu CSS -->
     <link href="css/meucss.css" rel="stylesheet">
 
-    <!-- Css for alerts included in Bootstrap -->
-        
     <!-- Jquery UI CSS - Autocomplete -->
     <link href="css/jquery/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="css/jquery/jquery-ui.structure.css" rel="stylesheet" type="text/css">
@@ -82,21 +80,23 @@
         <div class="panel-docs">   
       
           <!-- Begin searcher column -->
-          <div class="col col-lg-3">
+                    <div class="col col-lg-3">
             <div class="sidebar">
               <span class="nav-section-title">
                 <p></p>
               </span>
+              <!-- sc#1-e#1 showing the search form so the user can start searching the lexicon-->
               <form id="pesquisa_form" onsubmit="Searching()">
                 <frameset>
-                 <label value="asd" class="nav-section-title">PESQUISAR</label>
+                 <label class="nav-section-title">PESQUISAR</label>
                  <input type="text" placeholder="Search..." id="searchText">
+                 <!-- sc#1-e#2 showing the sending-button for searching with and icon -->
                  <button id="searchBtn"><i class="fa fa-search"></i></button>
                 </frameset>
               </form>
               <span><p></br></span>
 
-              <!-- e#1 showing the text for helping the user in understanding the site uses -->
+              <!-- sc# - e#1 showing the text for helping the user in understanding the site uses -->
               <div class="alert alert-warning alert-dismissible fade in" role="alert">
                 <strong>Instruções :</strong>
                 <p></p>
@@ -106,7 +106,6 @@
                 Ao final da página temos uma nuvem de termos do LAL de X. No topo temos uma caixa de busca.<p></p>
                 Finalmente, a navegação é feita deslocando-se símbolos da esquerda para a direita dentro dos quadrantes.
               </div>
-              <!-- end episodio #1 -->
               </div>
           </div>
           <!-- end searcher column -->
@@ -123,7 +122,7 @@
               <!-- begin first row -->
               <div class="row">
 
-                <!-- begin first quadrant -->
+                <!-- sc# - e#1 showing the first-main quadrant to exhibit the last symbol searched -->
                 <div class="col col-lg-6">
                   <table summary="this is the table of content for a lexicon-word">
                     <thead>
@@ -157,9 +156,9 @@
                     </tbody>
                   </table>
                 </div>
-                <!-- end first quadrant -->
+                <!-- end main quadrant -->
 
-                <!-- begin second quadrant -->
+                <!-- sc# - e#2 showing the second quadrant -->
                 <div class="col col-lg-6">
                   <table summary="this is the table of content for a lexicon-word">
                     <thead>
@@ -202,7 +201,7 @@
                <!-- begin second row -->
                <div class="row">
                 
-                 <!-- begin third quadrant -->
+                 <!-- sc# - e#3 showing the third quadrant -->
                  <div class="col col-lg-6">
                    <table summary="this is the table of content for a lexicon-word">
                      <thead>
@@ -238,7 +237,7 @@
                  </div>
                 <!-- end third quadrant -->
 
-                <!-- begin fourth quadrant -->
+                <!-- sc# - e#4 showing the fourth quadrant -->
                  <div class="col col-lg-6">
                    <table summary="this is the table of content for a lexicon-word">
                      <thead>
@@ -279,7 +278,7 @@
             </div>
             <!-- end quadrants -->
 
-            <!-- begin cloud -->
+            <!-- sc# - e#1 showing the cloud of words with relevance of symbols referenced -->
             <div>
              <div class="col col-lg-10"> 
                <span></span>

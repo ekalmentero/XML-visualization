@@ -12,12 +12,13 @@ $(document).ready(function(){
 });
 
 
-// get the word searched 
+// sc#1-e#1 get the word searched
 function Searching(){
     
     if (searchText !="") {
+    	//sc#1-e#2 find the word in the lexicon
         lexiconModule.searchByLexiconSymbol(searchText,false);
-        /*parseXmlBusca(termo_pesquisa,false);*/
+        
     } 
     
 }
@@ -28,7 +29,7 @@ function reloadingPage(){
     $(".ref_simbolo" ).unbind( "click" );   
     $(".ref_simbolo").click(function(){
        
-        parseXmlBusca($(this).data("id-simb-ref"), true);
+        lexiconModule.searchByLexiconSymbol($(this).data("id-simb-ref"), true);
 
 
     });
@@ -41,9 +42,7 @@ function meuAjax(type, url, dataType){
     return $.ajax({
 
         type: type,
-        
         url: url,     
-        
         dataType: dataType,
         
         error: function (xhr, status) {
@@ -167,19 +166,18 @@ var lexiconModule = {
 
                 });
 
-         	// the object wich stores the symbol founded is filled with content 
+         	//sc#1-e#3 build the symbol object to show in the main quadrant 
                 objSymbolFound.symbolId = symbolId;
                 objSymbolFound.symbolName = symvolName;
                 objSymbolFound.symbolNotion = symbolNotion;
                 objSymbolFound.symbolImpact= symbolImpact;
                 objSymbolFound.symbolSynonyms = symbolSynonyms;
 
-               // alert("inside :>"+objSymbolFound.symbolNotion)
-
-                // change the 2nd 3rd 4rd quadrant of contents
+               
+                //sc#1-e#4 if main quadrant is not empty, move the symbols to the other quadrants
                 lexiconModule.changeOthersSymbols();
 
-                // exposes the object with the symbol found
+                //sc#1-e#5 exposes the object with the symbol found
                 lexiconModule.changeMainSymbol(objSymbolFound);
                 
             }

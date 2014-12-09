@@ -86,7 +86,7 @@
                 <p></p>
               </span>
               <!-- sc#1-e#1 showing the search form so the user can start searching the lexicon-->
-              <form id="pesquisa_form" onsubmit="Searching()">
+              <form id="searchForm" onsubmit="Searching()">
                 <frameset>
                  <label class="nav-section-title">PESQUISAR</label>
                  <input type="text" placeholder="Search..." id="searchText">
@@ -123,7 +123,7 @@
               <div class="row">
 
                 <!-- sc# - e#1 showing the first-main quadrant to exhibit the last symbol searched -->
-                <div class="col col-lg-6">
+                <div id="firstQuadrant" class="col col-lg-6">
                   <table summary="this is the table of content for a lexicon-word">
                     <thead>
                         <tr>
@@ -159,7 +159,7 @@
                 <!-- end main quadrant -->
 
                 <!-- sc# - e#2 showing the second quadrant -->
-                <div class="col col-lg-6">
+                <div id="secondQuadrant" class="col col-lg-6">
                   <table summary="this is the table of content for a lexicon-word">
                     <thead>
                         <tr>
@@ -202,7 +202,7 @@
                <div class="row">
                 
                  <!-- sc# - e#3 showing the third quadrant -->
-                 <div class="col col-lg-6">
+                 <div id="thirdQuadrant" class="col col-lg-6">
                    <table summary="this is the table of content for a lexicon-word">
                      <thead>
                          <tr>
@@ -238,7 +238,7 @@
                 <!-- end third quadrant -->
 
                 <!-- sc# - e#4 showing the fourth quadrant -->
-                 <div class="col col-lg-6">
+                 <div id="fourthQuadrant"class="col col-lg-6">
                    <table summary="this is the table of content for a lexicon-word">
                      <thead>
                          <tr>
@@ -280,7 +280,7 @@
 
             <!-- sc# - e#1 showing the cloud of words with relevance of symbols referenced -->
             <div>
-             <div class="col col-lg-10"> 
+             <div id="cloudSection" class="col col-lg-10"> 
                <span></span>
                <div id="tag_cloud" class="cloud"></div>
              </div>   

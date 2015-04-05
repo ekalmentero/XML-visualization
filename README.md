@@ -10,6 +10,9 @@ The final report in:
 
 ## Getting Started
 
+NOTE: this version is been refactored, the working version is in the fork:
+https://github.com/nitanilla/XML-visualization
+
 To use this Code, choose one of the following options to get started:
 * Download the zip
 * Fork this repository on GitHub
